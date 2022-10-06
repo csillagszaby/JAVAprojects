@@ -1,0 +1,33 @@
+stages:
+  - build
+  - deploy
+
+cache:
+  paths:
+    - node_modules/
+
+variables:
+  CI: ""
+
+build:
+  stage: build
+  image: node:16
+  script:
+    - npm install
+    - npm run build
+
+
+deploy:
+  stage: deploy
+  image: ruby:2.4
+  script:
+    - gem install faraday -v 1.10.0
+    - apt-get update -qy
+    - apt-get install -y ruby-dev
+    - gem install dpl
+    - dpl --provider=heroku --app=disi-frontend-2022 --api-key=$HEROKU_API_KEY --skip_cleanup
+  environment:
+    name: staging
+    url: https://disi-frontend-2022.herokuapp.com/
+  only:
+    - main

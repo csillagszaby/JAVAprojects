@@ -1,0 +1,9 @@
+1 day 15 hours 44 minutes 44 seconds , with activity: Leaving	
+0 day 14 hours 58 minutes 8 seconds , with activity: Breakfast	
+6 day 11 hours 3 minutes 31 seconds , with activity: Sleeping
+0 day 0 hours 6 minutes 1 seconds , with activity: Snack	
+1 day 2 hours 40 minutes 42 seconds , with activity: Grooming	
+0 day 1 hours 34 minutes 9 seconds , with activity: Showering	
+8 day 10 hours 28 minutes 55 seconds , with activity: Spare_Time/TV
+0 day 14 hours 20 minutes 34 seconds , with activity: Toileting	
+0 day 5 hours 13 minutes 31 seconds , with activity: Lunch

@@ -1,0 +1,28 @@
+key: 1
+	{Leaving	=1, Breakfast	=1, Sleeping=1, Grooming	=3, Showering	=1, Spare_Time/TV=7, Toileting	=2, Lunch=1}
+key: 2
+	{Breakfast	=1, Sleeping=1, Snack	=1, Grooming	=4, Showering	=1, Spare_Time/TV=8, Toileting	=3, Lunch=1}
+key: 3
+	{Leaving	=1, Breakfast	=1, Sleeping=1, Grooming	=3, Showering	=1, Spare_Time/TV=5, Toileting	=2}
+key: 4
+	{Leaving	=1, Breakfast	=1, Sleeping=1, Snack	=2, Grooming	=2, Showering	=1, Spare_Time/TV=7, Toileting	=4}
+key: 5
+	{Leaving	=2, Breakfast	=1, Sleeping=1, Snack	=1, Grooming	=6, Showering	=1, Spare_Time/TV=8, Toileting	=5, Lunch=1}
+key: 6
+	{Breakfast	=1, Sleeping=1, Snack	=1, Grooming	=4, Showering	=1, Spare_Time/TV=6, Toileting	=3, Lunch=1}
+key: 7
+	{Leaving	=1, Breakfast	=1, Sleeping=1, Snack	=2, Grooming	=5, Showering	=1, Spare_Time/TV=9, Toileting	=6, Lunch=1}
+key: 8
+	{Leaving	=1, Breakfast	=1, Sleeping=1, Grooming	=5, Showering	=1, Spare_Time/TV=5, Toileting	=1}
+key: 9
+	{Leaving	=2, Breakfast	=1, Sleeping=1, Grooming	=5, Showering	=1, Spare_Time/TV=7, Toileting	=2}
+key: 10
+	{Leaving	=2, Breakfast	=1, Sleeping=1, Grooming	=4, Showering	=1, Spare_Time/TV=4, Toileting	=1}
+key: 11
+	{Leaving	=1, Breakfast	=1, Sleeping=1, Grooming	=3, Showering	=1, Spare_Time/TV=3, Toileting	=2, Lunch=1}
+key: 28
+	{Leaving	=1, Breakfast	=1, Sleeping=1, Snack	=1, Grooming	=2, Showering	=1, Spare_Time/TV=4, Toileting	=3, Lunch=1}
+key: 29
+	{Leaving	=1, Breakfast	=1, Sleeping=1, Snack	=1, Grooming	=3, Showering	=1, Spare_Time/TV=7, Toileting	=4, Lunch=1}
+key: 30
+	{Leaving	=1, Breakfast	=1, Sleeping=1, Snack	=2, Grooming	=2, Showering	=1, Spare_Time/TV=9, Toileting	=6, Lunch=1}

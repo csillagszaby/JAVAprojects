@@ -1,0 +1,21 @@
+stages:
+  - deploy
+
+variables:
+  DB_IP: ec2-54-164-40-66.compute-1.amazonaws.com
+  DB_PORT: 5432
+  DB_USER: axjtzojoofacqf
+  DB_PASSWORD: 9458e4cacc535c3f0e475f16ad514d078bb2f6c97dc309e124d89836d17f3427
+  DB_DBNAME: d8mpgcqq2f9t3j
+
+deploy:
+  stage: deploy
+  image: ruby:2.4
+  script:
+    - gem install faraday -v 1.10.0
+    - apt-get update -qy
+    - apt-get install -y ruby-dev
+    - gem install dpl
+    - dpl --provider=heroku --app=disi-backend-2022 --api-key=$HEROKU_API_KEY
+  only:
+    - main
